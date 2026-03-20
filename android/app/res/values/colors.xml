@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Branding -->
+    <color name="colorPrimary">#6366F1</color> <!-- Modern Indigo -->
+    <color name="colorPrimaryDark">#4F46E5</color>
+    <color name="colorAccent">#818CF8</color>
+
+    <!-- UI Backgrounds -->
+    <color name="background">#F8FAFC</color> <!-- Very light slate (cleaner than white) -->
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Status Bar & Navigation -->
+    <color name="status_bar_color">#F8FAFC</color>
+</resources>

@@ -1,0 +1,542 @@
+{
+  "version": "1.2",
+  "categories": [
+    {
+      "id": "basic-greetings",
+      "name": "基本打招呼",
+      "nameEn": "Basic Greetings",
+      "questions": [
+        {
+          "base": "你好嗎？",
+          "baseEn": "How are you?",
+          "variations": [
+            {
+              "type": "簡單",
+              "text": "我很好，謝謝！你呢？",
+              "textEn": "I'm good, thank you! And you?",
+              "keyPoints": ["保持簡單", "使用禮貌詞語", "回問對方"],
+              "phonetic": "Wǒ hěn hǎo, xièxie! nǐ ne?"
+            },
+            {
+              "type": "正式",
+              "text": "我很好，謝謝關心。你好嗎？",
+              "textEn": "I'm doing well, thank you for asking. How are you?",
+              "keyPoints": ["更正式", "表達感謝", "禮貌回應"],
+              "phonetic": "Wǒ hěn hǎo, xièxie guānxīn. Nǐ hǎo ma?"
+            }
+          ]
+        },
+        {
+          "base": "請介紹你自己",
+          "baseEn": "Please introduce yourself",
+          "variations": [
+            {
+              "type": "學生",
+              "text": "我叫[名字]。我來自[城市]。我正在[大學]讀[專業]。我喜歡[愛好]。",
+              "textEn": "My name is [Name]. I am from [City]. I am studying [Major] at [University]. I like [Hobby].",
+              "keyPoints": ["名字", "來自哪裡", "讀什麼", "興趣"],
+              "phonetic": "Wǒ jiào [name]. Wǒ láizì [city]. Wǒ zhèngzài [university] dú [major]."
+            }
+          ]
+        },
+        {
+          "base": "你叫什麼名字？",
+          "baseEn": "What is your name?",
+          "variations": [
+            {
+              "type": "普通",
+              "text": "我叫[名字]。你可以叫我[暱稱]。",
+              "textEn": "My name is [Full Name]. You can call me [Nickname].",
+              "keyPoints": ["全名", "暱稱", "說清楚"],
+              "phonetic": "Wǒ jiào [name]. Nǐ kěyǐ jiào wǒ [nickname]."
+            }
+          ]
+        },
+        {
+          "base": "你來自哪裡？",
+          "baseEn": "Where are you from?",
+          "variations": [
+            {
+              "type": "簡單",
+              "text": "我來自[城市]，[國家]。這裡以[特產]聞名。",
+              "textEn": "I am from [City], [Country]. It is famous for [thing].",
+              "keyPoints": ["城市和國家", "一個細節"],
+              "phonetic": "Wǒ láizì [city], [country]. Zhèlǐ yǐ [thing] wénmíng."
+            }
+          ]
+        },
+        {
+          "base": "你做什麼工作？",
+          "baseEn": "What do you do?",
+          "variations": [
+            {
+              "type": "學生",
+              "text": "我是學生。我在[大學]讀[專業]。明年畢業。",
+              "textEn": "I am a student. I study [Major] at [University]. I will graduate next year.",
+              "keyPoints": ["學生身份", "讀什麼", "時間"],
+              "phonetic": "Wǒ shì xuéshēng. Wǒ zài [university] dú [major]. Míngnián bìyè."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "教育背景",
+      "nameEn": "Education",
+      "questions": [
+        {
+          "base": "你讀什麼科系？",
+          "baseEn": "What did you study?",
+          "variations": [
+            {
+              "type": "簡單",
+              "text": "我讀[科系]，在[大學]。我最喜歡的科目是[科目]，因為[原因]。",
+              "textEn": "I studied [Major] at [University]. My favorite subject was [Subject] because [Reason].",
+              "keyPoints": ["科系名稱", "大學", "喜歡的科目及原因"],
+              "phonetic": "Wǒ dú [major], zài [university]. Wǒ zuì xǐhuan de kēmù shì [subject]."
+            }
+          ]
+        },
+        {
+          "base": "你畢業了嗎？",
+          "baseEn": "Have you graduated?",
+          "variations": [
+            {
+              "type": "應屆",
+              "text": "是的，我明年[年份]畢業。我讀[科系]。",
+              "textEn": "Yes, I will graduate in [Year]. I studied [Major].",
+              "keyPoints": ["畢業年份", "讀什麼"],
+              "phonetic": "Shì de, wǒ míngnián [year] bìyè. Wǒ dú [major]."
+            }
+          ]
+        },
+        {
+          "base": "你學到了什麼？",
+          "baseEn": "What did you learn?",
+          "variations": [
+            {
+              "type": "技能",
+              "text": "我學會了[技能1]和[技能2]。這些技能幫助我[用途]。",
+              "textEn": "I learned [Skill 1] and [Skill 2]. These skills help me [How you use them].",
+              "keyPoints": ["關鍵技能", "如何應用"],
+              "phonetic": "Wǒ xuéhuì le [skill 1] hé [skill 2]. Zhèxiē jìnéng bāngzhù wǒ [use]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "name": "工作經驗",
+      "nameEn": "Work Experience",
+      "questions": [
+        {
+          "base": "你有工作經驗嗎？",
+          "baseEn": "Do you have work experience?",
+          "variations": [
+            {
+              "type": "實習",
+              "text": "是的，我在[公司]實習，做[職位]。工作了[時間]。我的主要工作是[工作內容]。",
+              "textEn": "Yes, I did an internship at [Company] as [Role]. I worked for [Duration]. My main tasks were [Tasks].",
+              "keyPoints": ["公司", "職位", "時間", "主要工作"],
+              "phonetic": "Shì de, wǒ zài [company] shíxí, zuò [role]. Gōngzuò le [time]."
+            },
+            {
+              "type": "無經驗",
+              "text": "沒有，這是我的第一份工作。但我做過[項目/義工]，學會了[技能]。我很願意學習。",
+              "textEn": "No, this is my first job. But I did [Project/Volunteer Work] and learned [Skills]. I am eager to learn.",
+              "keyPoints": ["誠實", "相關活動", "願意學習"],
+              "phonetic": "Méiyǒu, zhè shì wǒ de dì yī fèn gōngzuò. Dàn wǒ zuòguò [project]."
+            }
+          ]
+        },
+        {
+          "base": "你之前做什麼工作？",
+          "baseEn": "What was your previous job?",
+          "variations": [
+            {
+              "type": "簡單",
+              "text": "我在[公司]做[職位]。我的工作是[主要職責]。我學會了[技能]。",
+              "textEn": "I worked as a [Role] at [Company]. My job was to [Main Duty]. I learned [Skill].",
+              "keyPoints": ["職位", "公司", "主要職責", "學到的技能"],
+              "phonetic": "Wǒ zài [company] zuò [role]. Wǒ de gōngzuò shì [duty]."
+            }
+          ]
+        },
+        {
+          "base": "為什麼離開上一份工作？",
+          "baseEn": "Why did you leave your last job?",
+          "variations": [
+            {
+              "type": "轉行",
+              "text": "我在[舊公司]學了很多。現在我想嘗試[新行業]，因為[原因]。我想找新的挑戰。",
+              "textEn": "I learned a lot at [Old Company]. Now I want to try [New Field] because [Reason]. I am looking for new challenges.",
+              "keyPoints": ["正面評價舊公司", "離開原因", "對新方向的熱情"],
+              "phonetic": "Wǒ zài [old company] xué le hěn duō. Xiànzài wǒ xiǎng chángshì [new field]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "name": "技能與能力",
+      "nameEn": "Skills & Abilities",
+      "questions": [
+        {
+          "base": "你有什麼技能？",
+          "baseEn": "What skills do you have?",
+          "variations": [
+            {
+              "type": "簡單",
+              "text": "我會[技能1]和[技能2]。我也擅長[技能3]。我想學更多關於[新技能]。",
+              "textEn": "I can do [Skill 1] and [Skill 2]. I am also good at [Skill 3]. I want to learn more about [New Skill].",
+              "keyPoints": ["2-3個技能", "顯示願意學習"],
+              "phonetic": "Wǒ huì [skill 1] hé [skill 2]. Wǒ yě shàncháng [skill 3]."
+            },
+            {
+              "type": "工作相關",
+              "text": "這份工作需要[技能1]，我可以做。我有使用[工具/軟件]的經驗。",
+              "textEn": "This job requires [Skill 1], I can do it. I have experience with [Tools/Software].",
+              "keyPoints": ["符合工作要求", "會用的工具"],
+              "phonetic": "Zhè fèn gōngzuò xūyào [skill], wǒ kěyǐ zuò."
+            }
+          ]
+        },
+        {
+          "base": "你會用什麼軟件？",
+          "baseEn": "What software do you know?",
+          "variations": [
+            {
+              "type": "辦公室",
+              "text": "我會用[軟件1]、[軟件2]和[軟件3]。我在學校/上一份工作學的。",
+              "textEn": "I know how to use [Software 1], [Software 2], and [Software 3]. I learned them at school/at my last job.",
+              "keyPoints": ["常用軟件", "在哪裡學的"],
+              "phonetic": "Wǒ huì yòng [software 1], [software 2] hé [software 3]."
+            }
+          ]
+        },
+        {
+          "base": "你英文好嗎？",
+          "baseEn": "Is your English good?",
+          "variations": [
+            {
+              "type": "誠實",
+              "text": "我的英文程度是[中等/基礎]。我可以[能做到的事]。我還在進步。我通過[方式]練習。",
+              "textEn": "My English level is [Level]. I can [What you can do] but I am still improving. I practice by [How you practice].",
+              "keyPoints": ["誠實面對程度", "能做到的事", "如何進步"],
+              "phonetic": "Wǒ de Yīngwén chéngdù shì [level]. Wǒ kěyǐ [what you can do]."
+            }
+          ]
+        },
+        {
+          "base": "你擅長團隊合作嗎？",
+          "baseEn": "Are you good at teamwork?",
+          "variations": [
+            {
+              "type": "例子",
+              "text": "是的，我喜歡和別人合作。在[課堂/工作]時，我和[人數]人一起做[項目]。我們[合作內容]。",
+              "textEn": "Yes, I like working with others. In my [Class/Job], I worked with [Number] people on [Project]. We [What you did together].",
+              "keyPoints": ["說是", "給出例子", "顯示合作能力"],
+              "phonetic": "Shì de, wǒ xǐhuan hé bié rén hézuò. Zài [class] shí, wǒ hé [number] rén yìqǐ zuò [project]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "this-job",
+      "name": "關於這份工作",
+      "nameEn": "About This Job",
+      "questions": [
+        {
+          "base": "你為什麼想應徵這份工作？",
+          "baseEn": "Why do you want this job?",
+          "variations": [
+            {
+              "type": "簡單",
+              "text": "我想做這份工作是因為我對[行業]有興趣。貴公司[公司優點]。我覺得可以在這裡學到很多。",
+              "textEn": "I want this job because I am interested in [Field]. Your company [Good Thing]. I think I can learn a lot here.",
+              "keyPoints": ["對行業的興趣", "公司的優點", "願意學習"],
+              "phonetic": "Wǒ xiǎng zuò zhè fèn gōngzuò shì yīnwèi wǒ duì [field] yǒu xìngqù."
+            },
+            {
+              "type": "職業",
+              "text": "我想做這份工作是因為它符合我的[技能]。這是個在[領域]成長的機會。貴公司的[優點]很吸引我。",
+              "textEn": "I want this job because it matches my skills in [Skill]. This is a chance to grow in [Area]. Your company's [Positive] attracts me.",
+              "keyPoints": ["技能匹配", "成長機會", "了解公司"],
+              "phonetic": "Wǒ xiǎng zuò zhè fèn gōngzuò shì yīnwèi tā fúhé wǒ de [skill]."
+            }
+          ]
+        },
+        {
+          "base": "你了解我們公司嗎？",
+          "baseEn": "Do you know about our company?",
+          "variations": [
+            {
+              "type": "研究過",
+              "text": "我知道[公司名稱]是一家[公司類型]。你們有[人數]名員工。主要產品是[產品]。我很欣賞[公司成就]。",
+              "textEn": "I know that [Company Name] is a [Type of Business]. You have [Number] employees. Your main products are [Products]. I am impressed by [Achievement].",
+              "keyPoints": ["公司做什麼", "規模", "產品", "具體事情"],
+              "phonetic": "Wǒ zhīdào [company name] shì yì jiā [type]. Nǐmen yǒu [number] míng yuángōng."
+            }
+          ]
+        },
+        {
+          "base": "你能做這份工作嗎？",
+          "baseEn": "Can you do this job?",
+          "variations": [
+            {
+              "type": "有信心",
+              "text": "是的，我可以做這份工作。我有[技能1]和[技能2]。我學得很快。如果有不知道的，我會問並學習。",
+              "textEn": "Yes, I can do this job. I have skills in [Skill 1] and [Skill 2]. I am a fast learner. If there is something I don't know, I will ask and learn.",
+              "keyPoints": ["顯示信心", "相關技能", "顯示願意學習"],
+              "phonetic": "Shì de, wǒ kěyǐ zuò zhè fèn gōngzuò. Wǒ yǒu [skill 1] hé [skill 2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "availability",
+      "name": "可用時間",
+      "nameEn": "Availability",
+      "questions": [
+        {
+          "base": "你什麼時候可以開始工作？",
+          "baseEn": "When can you start?",
+          "variations": [
+            {
+              "type": "立即",
+              "text": "我可以[時間]開始。我需要[通知期]來離開現在的[學校/工作]。可以嗎？",
+              "textEn": "I can start in [Time]. I need [Notice Period] to leave my current [School/Job]. Is that okay?",
+              "keyPoints": ["什麼時候能開始", "需要多少通知期"],
+              "phonetic": "Wǒ kěyǐ [time] kāishǐ. Wǒ xūyào [notice period] lái líkāi."
+            }
+          ]
+        },
+        {
+          "base": "你願意加班嗎？",
+          "baseEn": "Are you willing to work overtime?",
+          "variations": [
+            {
+              "type": "合理",
+              "text": "是的，當有重要工作時我願意加班。但我認為平衡也很重要。我每週可以工作[小時]小時。",
+              "textEn": "Yes, I am willing to work extra hours when there is important work. But I also think balance is important. I can work [Hours] hours per week.",
+              "keyPoints": ["說願意但有限度", "顯示理解工作量"],
+              "phonetic": "Shì de, dāng yǒu zhòngyào gōngzuò shí wǒ yuàn yì jiābān."
+            }
+          ]
+        },
+        {
+          "base": "你可以在週末工作嗎？",
+          "baseEn": "Can you work on weekends?",
+          "variations": [
+            {
+              "type": "彈性",
+              "text": "是的，如果需要我可以週末工作。但是[日期]比較困難，因為[原因]。可以嗎？",
+              "textEn": "Yes, I can work on weekends if needed. However, [Day] is difficult because [Reason]. Is that okay?",
+              "keyPoints": ["顯示彈性", "說明限制"],
+              "phonetic": "Shì de, rúguǒ xūyào wǒ kěyǐ zhōumò gōngzuò."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "name": "未來目標",
+      "nameEn": "Future Goals",
+      "questions": [
+        {
+          "base": "你五年後想怎樣？",
+          "baseEn": "Where do you see yourself in 5 years?",
+          "variations": [
+            {
+              "type": "現實",
+              "text": "五年後，我希望成為這家公司的[職位]。我想學更多關於[技能]。我也想[個人目標]。",
+              "textEn": "In 5 years, I hope to be [Job Title] at this company. I want to learn more about [Skill]. I also want to [Personal Goal].",
+              "keyPoints": ["現實的職位目標", "學習目標", "顯示穩定性"],
+              "phonetic": "Wǔ nián hòu, wǒ xīwàng chéngwéi zhè jiā gōngsī de [job title]."
+            },
+            {
+              "type": "成長",
+              "text": "我看到自己在這個行業成長。我想成為[領域]的專家。我計劃考取[證書/培訓]來幫助我達成目標。",
+              "textEn": "I see myself growing in this industry. I want to become an expert in [Area]. I plan to get [Certificate/Training] to help me achieve this.",
+              "keyPoints": ["行業成長", "具體領域", "達成計劃"],
+              "phonetic": "Wǒ kàndao zìjǐ zài zhège hángyè chéngzhǎng."
+            }
+          ]
+        },
+        {
+          "base": "你的職業目標是什麼？",
+          "baseEn": "What are your career goals?",
+          "variations": [
+            {
+              "type": "短期",
+              "text": "我的短期目標是好好學會這份工作。我想要擅長[關鍵任務]。我的長期目標是[更大目標]。",
+              "textEn": "My short-term goal is to learn this job well. I want to be good at [Key Task]. My long-term goal is [Bigger Goal].",
+              "keyPoints": ["短期學習目標", "長期更大目標"],
+              "phonetic": "Wǒ de duǎnqī mùbiāo shì hǎohāo xuéhuì zhè fèn gōngzuò."
+            }
+          ]
+        },
+        {
+          "base": "你想學什麼？",
+          "baseEn": "What do you want to learn?",
+          "variations": [
+            {
+              "type": "具體",
+              "text": "我想學[具體技能]，因為[原因]。我知道你們公司有[培訓項目]。我很想在這裡發展這個技能。",
+              "textEn": "I want to learn [Specific Skill] because [Reason]. I know your company has [Training Program]. I am excited to develop this skill here.",
+              "keyPoints": ["具體技能", "想學的原因", "公司培訓"],
+              "phonetic": "Wǒ xiǎng xué [specific skill], yīnwèi [reason]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "behavioral",
+      "name": "情境問題",
+      "nameEn": "Behavioral Questions",
+      "questions": [
+        {
+          "base": "說一次你幫助別人的經歷",
+          "baseEn": "Tell me about a time you helped someone",
+          "variations": [
+            {
+              "type": "簡單",
+              "text": "有一次，我同學生病了。我幫他做作業。我[你做了什麼]。他說謝謝，然後[結果]。",
+              "textEn": "One time, my classmate was sick. I helped them with their work. I [What you did]. They said thank you and [Result].",
+              "keyPoints": ["簡單故事", "你做了什麼", "正面結果"],
+              "phonetic": "Yǒu yí cì, wǒ tóngxué shēngbìng le. Wǒ bāng tā zuò zuòyè."
+            }
+          ]
+        },
+        {
+          "base": "說一次你犯錯的經歷",
+          "baseEn": "Tell me about a time you made a mistake",
+          "variations": [
+            {
+              "type": "誠實",
+              "text": "有一次，我在[學校/工作]犯了錯。我忘記了[什麼錯]。我覺得[感受]。然後我[如何補救]。現在我總是[預防]。",
+              "textEn": "Once, I made a mistake at [School/Work]. I forgot to [What went wrong]. I felt [Feeling]. Then I [What you did to fix it]. Now I always [Prevention].",
+              "keyPoints": ["承認錯誤", "如何補救", "學到了什麼"],
+              "phonetic": "Yǒu yí cì, wǒ zài [school] fàn le cuò. Wǒ wàngjì le [mistake]."
+            }
+          ]
+        },
+        {
+          "base": "說一次你完成困難工作的經歷",
+          "baseEn": "Tell me about a time you finished difficult work",
+          "variations": [
+            {
+              "type": "努力",
+              "text": "我需要做[困難的任務]。這很難，因為[為什麼難]。我[你是怎麼做的]。最後，我[結果]。我學到了[教訓]。",
+              "textEn": "I had to [Difficult Task]. It was hard because [Why it was hard]. I [How you did it]. In the end, I [Result]. I learned [Lesson].",
+              "keyPoints": ["什麼很難", "你付出的努力", "結果"],
+              "phonetic": "Wǒ xūyào zuò [difficult task]. Zhè hěn nán, yīnwèi [why]."
+            }
+          ]
+        },
+        {
+          "base": "說一次你團隊合作的經歷",
+          "baseEn": "Tell me about a time you worked in a team",
+          "variations": [
+            {
+              "type": "合作",
+              "text": "我做過一個[項目]的團隊。有[人數]人。我的工作是[你的部分]。我們[如何合作]。這個項目[結果]。",
+              "textEn": "I worked in a team for [Project]. There were [Number] people. My job was [Your Part]. We [How you worked together]. The project was [Result].",
+              "keyPoints": ["團隊人數", "你的角色", "如何貢獻", "結果"],
+              "phonetic": "Wǒ zuòguò yí gè [project] de tuánduì. Yǒu [number] rén."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ask-employer",
+      "name": "可以問僱主的問題",
+      "nameEn": "Questions for Employer",
+      "questions": [
+        {
+          "base": "你有什麼問題想問？",
+          "baseEn": "Do you have any questions?",
+          "variations": [
+            {
+              "type": "培訓",
+              "text": "你們提供什麼培訓？學會這份工作要多久？",
+              "textEn": "What training do you provide? How long does it take to learn the job?",
+              "keyPoints": ["顯示你想學習", "實際問題"],
+              "phonetic": "Nǐmen tígōng shénme péixùn? Xuéhuì zhè fèn gōngzuò yào duōjiǔ?"
+            },
+            {
+              "type": "團隊",
+              "text": "可以說說我要合作的團隊嗎？團隊是怎樣的？",
+              "textEn": "Can you tell me about the team I will work with? What is the team like?",
+              "keyPoints": ["對團隊有興趣", "顯示你想融入"],
+              "phonetic": "Kěyǐ shuōshuō wǒ yào hézuò de tuánduì ma?"
+            },
+            {
+              "type": "成長",
+              "text": "這份工作有什麼學習和成長的機會？",
+              "textEn": "What opportunities are there for learning and growth in this role?",
+              "keyPoints": ["顯示野心", "顯示長期興趣"],
+              "phonetic": "Zhè fèn gōngzuò yǒu shénme xuéxí hé chéngzhǎng de jīhuì?"
+            },
+            {
+              "type": "日常工作",
+              "text": "這份工作典型的一天是怎樣的？我第一天要做什麼？",
+              "textEn": "What does a typical day look like in this role? What will I do on my first day?",
+              "keyPoints": ["想了解工作內容", "實際問題"],
+              "phonetic": "Zhè fèn gōngzuò diǎnxíng de yì tiān shì zěnmeyàng de?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "name": "結束面試",
+      "nameEn": "Ending the Interview",
+      "questions": [
+        {
+          "base": "謝謝你的時間",
+          "baseEn": "Thank you for your time",
+          "variations": [
+            {
+              "type": "禮貌",
+              "text": "謝謝你今天見我。我對這個機會感到很興奮。期待你的回覆。祝你有美好的一天！",
+              "textEn": "Thank you for meeting with me today. I am excited about this opportunity. I look forward to hearing from you. Have a nice day!",
+              "keyPoints": ["說謝謝", "表達熱情", "禮貌道別"],
+              "phonetic": "Xièxie nǐ jīntiān jiàn wǒ. Wǒ duì zhège jīhuì gǎndào hěn xīngfèn."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "phoneticTips": {
+    "commonChallenges": {
+      "th音": ["think", "thought", "through", "the", "that", "this"],
+      "r音": ["right", "really", "report", "read", "red", "run"],
+      "v音": ["very", "value", "have", "very", "five"],
+      "l音": ["love", "learn", "last", "like", "will"],
+      "短i音": ["sit", "fit", "will", "ship", "bit"],
+      "ch音": ["choose", "church", "cheap", "check"],
+      "sh音": ["ship", "shop", "should", "she"]
+    },
+    "practicePhrases": [
+      "I think this is very important",
+      "I really appreciate your help",
+      "Let me walk you through this",
+      "Thank you for this opportunity",
+      "I am excited about this role",
+      "Can you please repeat that?",
+      "I understand, let me think about that",
+      "I am a fast learner"
+    ]
+  }
+}
